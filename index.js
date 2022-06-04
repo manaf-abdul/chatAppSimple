@@ -53,6 +53,6 @@ app.use("/api/users", userRoute);
 app.use("/api/chat", chatRoute);
 app.use("/api/messages", messageRoute);
 
-app.listen(8800, () => {
+app.listen(3000, () => {
   console.log("Backend server is running!");
 });
